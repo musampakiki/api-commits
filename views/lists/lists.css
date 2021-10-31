@@ -1,0 +1,43 @@
+h1 {
+    color: darkred;
+    margin: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: darkslateblue;
+    font-size: 20px;
+    margin: 2em;
+    background: bisque;
+    border-radius: 5px;
+    padding: 5px;
+}
+ul{
+    padding: 10px 20px;
+    margin: 20px;
+    list-style-type: none;
+}
+ol li{
+    background-color: ghostwhite;
+    border: 1px solid silver;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+ol {
+    display: none;
+}
+
+
+
+ul li{
+    margin: 0.3em 0;
+}
+
+button {
+    background: mistyrose;
+    width: 10em;
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 0.3em 2em;
+}

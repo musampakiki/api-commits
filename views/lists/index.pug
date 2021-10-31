@@ -1,0 +1,28 @@
+html
+    head
+        title= 'Commits page'
+        style
+            include lists.css
+        body
+            h1= 'Commits page'
+            a(href='/') Home
+            a(href='/api/commits') Api Commits
+
+            ul
+                li
+                button(type='button' class='btn btn' value='Click' onmousedown='viewDivSha()') Sha
+                div
+                    ol#sha
+                        each list in lists
+                          li= list.sha
+                              a(href=`/api/commits/${list.sha}`) Go on link
+                li
+                button(type='button' class='btn btn' value='Click' onmousedown='viewDiv()') Messages
+                div
+                    ol#message
+                      each list in lists
+                          li= list.commit.message
+
+        script
+            include script.js
+

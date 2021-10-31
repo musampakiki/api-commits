@@ -1,0 +1,14 @@
+h1 {
+    color: darkred;
+    margin: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: darkslateblue;
+    font-size: 20px;
+    margin: 0 2em;
+    background: bisque;
+    border-radius: 5px;
+    padding: 5px;
+}
